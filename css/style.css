@@ -250,6 +250,16 @@ footer {
   height: 25px;
   margin-top: 8rem;
 }
+.article__text {
+  width: 200px;
+  overflow-wrap: break-word;
+  line-height: 22px; /* высота строки */
+}
+.article__text img {
+  display: inline; /* тип отображения */
+  vertical-align: middle; /* вертикальное расположение по середине строки */ 
+  margin: 0px 0.5em 0px 0.5em; /* отступы слева и справа */
+}
 .content {
   display: flex; /* делаем колонки в ряд */
   align-items: center; /* выравниваем по центру */
